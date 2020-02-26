@@ -1,0 +1,37 @@
+import javax.swing.JOptionPane;
+import java.lang.Math;
+public class Main {
+	public static int Delta(int aD, int bD, int cD) {
+		int del;
+		return del = (bD * bD) - (4 * aD * cD);
+	}
+	
+	public static int Xlinha (int A, int B, int C, int DELTA) {
+		int x1, x2, raiz = 0;
+		raiz = Math.sqrt(DELTA);
+		
+
+		
+	}
+	public static void main(String[] args) {
+		
+		int a, b, c, delta;
+		String as, bs, cs;
+		
+		as = JOptionPane.showInputDialog("Informe o valor de A [CASO O X ELEVADO AO QUADRADO NÃO POSSUA VALOR, INFORME A = 1]");
+		bs = JOptionPane.showInputDialog("Informe o valor de B [INFORME CASO SEJA NEGATIVO]");
+		cs = JOptionPane.showInputDialog("Informe o valor de C [INFORME CASO SEJA NEGATIVO]");
+		
+		a = Integer.parseInt(as);
+		b = Integer.parseInt(bs);
+		c = Integer.parseInt(cs);
+		
+		delta = Delta(a, b, c);
+		
+		System.out.println(delta);
+		
+		xlinha = Xlinha(a, b, c, delta);
+
+	}
+
+}

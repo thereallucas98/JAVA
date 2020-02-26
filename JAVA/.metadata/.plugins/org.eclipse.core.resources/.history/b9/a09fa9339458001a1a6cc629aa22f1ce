@@ -1,0 +1,36 @@
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// QUESTÃO 1 - FAZER UM PROGRAMA PARA LER UM NÚMERO INTEIRO, E DEPOIS DIZER SE ESTE NÚMERO É NEGATIVO OU NÃO.
+		/*int x;
+		String xs;
+		
+		xs = JOptionPane.showInputDialog("Digite o valor de x: ");
+		x = Integer.parseInt(xs);
+		
+		if (x > 0) {
+			JOptionPane.showMessageDialog(null, "Número maior que zero, logo é positivo.");
+		} else {
+			JOptionPane.showMessageDialog(null, "Número é menor que zero, logo é negativo.");
+		}
+		*/
+		// QUESTÃO 2 - FAZER UM PROGRAMA PARA LER UM NÚMERO INTEIRO E DIZER SE ESTE NÚMERO É PAR OU IMPAR
+		int n, res;
+		String ns;
+		
+		ns = JOptionPane.showInputDialog("Informe um número inteiro qualquer: ");
+		n = Integer.parseInt(ns);
+		
+		res = n % 2;
+		
+		if (res == 0) {
+			JOptionPane.showConfirmDialog(null, "Número é par.");
+		} else {
+			JOptionPane.showConfirmDialog(null, "Número é impar.");
+		}
+		
+	}
+
+}

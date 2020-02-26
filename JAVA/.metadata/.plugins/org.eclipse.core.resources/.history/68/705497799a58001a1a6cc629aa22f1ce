@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+public class Main {
+	public static int Delta(int aD, int bD, int cD) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		int a, b, c, delta;
+		String as, bs, cs;
+		
+		as = JOptionPane.showInputDialog("Informe o valor de A [CASO O X ELEVADO AO QUADRADO NÃO POSSUA VALOR, INFORME A = 1]");
+		bs = JOptionPane.showInputDialog("Informe o valor de B [INFORME CASO SEJA NEGATIVO]");
+		cs = JOptionPane.showInputDialog("Informe o valor de C [INFORME CASO SEJA NEGATIVO]");
+		
+		a = Integer.parseInt(as);
+		b = Integer.parseInt(bs);
+		c = Integer.parseInt(cs);
+		
+		
+
+	}
+
+}

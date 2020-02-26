@@ -1,0 +1,53 @@
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// QUESTÃO 1 - FAZER UM PROGRAMA PARA LER UM NÚMERO INTEIRO, E DEPOIS DIZER SE ESTE NÚMERO É NEGATIVO OU NÃO.
+		/*int x;
+		String xs;
+		
+		xs = JOptionPane.showInputDialog("Digite o valor de x: ");
+		x = Integer.parseInt(xs);
+		
+		if (x > 0) {
+			JOptionPane.showMessageDialog(null, "Número maior que zero, logo é positivo.");
+		} else {
+			JOptionPane.showMessageDialog(null, "Número é menor que zero, logo é negativo.");
+		}
+		*/
+		// QUESTÃO 2 - FAZER UM PROGRAMA PARA LER UM NÚMERO INTEIRO E DIZER SE ESTE NÚMERO É PAR OU IMPAR
+		/*int n, res;
+		String ns;
+		
+		ns = JOptionPane.showInputDialog("Informe um número inteiro qualquer: ");
+		n = Integer.parseInt(ns);
+		
+		res = n % 2;
+		
+		if (res == 0) {
+			JOptionPane.showConfirmDialog(null, "Número é par.");
+		} else {
+			JOptionPane.showConfirmDialog(null, "Número é impar.");
+		}
+		*/
+		// QUESTÃO 3 - LEIA 2 VALORES INTEIROS (A E B). APÓS, O PROGRAMA DEVE MOSTRAR UMA MENSAGEM "SÃO MULTIPLOS" OU "NÃO SÃO MULTIPLOS
+		// INDICANDO SE OS VALORES LIDOS SÃO MÚLTIPLOS ENTRE SI. 
+		int a, b;
+		String as, bs;
+		
+		as = JOptionPane.showInputDialog("Digite o valor de A: ");
+		bs = JOptionPane.showInputDialog("Digite o valor de B: ");
+		
+		a = Integer.parseInt(as);
+		b = Integer.parseInt(bs);
+		
+		if (a % 2 == 0 && b % 2 == 0) {
+			JOptionPane.showMessageDialog(null, "São Múltiplos entre si.");
+		} else {
+			JOptionPane.showMessageDialog(null, "Não são Múltiplos entre si.");
+		}
+		
+	}
+
+}

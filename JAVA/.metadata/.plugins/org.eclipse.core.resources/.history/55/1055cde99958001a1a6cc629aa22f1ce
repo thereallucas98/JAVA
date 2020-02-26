@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a, b, c = 0;
+		String as, bs, cs;
+		
+		as = JOptionPane.showInputDialog("Informe o valor de A: [CASO O X ELEVADO AO QUADRADO NÃO POSSUA VALOR, INFORME A = 1]");
+		
+		
+
+	}
+
+}

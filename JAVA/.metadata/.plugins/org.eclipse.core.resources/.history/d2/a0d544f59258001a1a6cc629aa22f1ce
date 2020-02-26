@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// QUESTÃO 1 - FAZER UM PROGRAMA PARA LER UM NÚMERO INTEIRO, E DEPOIS DIZER SE ESTE NÚMERO É NEGATIVO OU NÃO.
+		int x;
+		
+		x = JOptionPane.showInputDialog("Digite o valor de x: ");
+		
+		if (x > 0) {
+			JOptionPane.showMessageDialog(null, "Número maior que zero, logo é positivo.");
+		} else {
+			JOptionPane.showMessageDialog(null, "Número é menor que zero, logo é negativo.");
+		}
+
+	}
+
+}
