@@ -26,7 +26,7 @@ public class Main {
 			r1 = (-b + Math.sqrt(delta)) / (2*a);
             		JOptionPane.showMessageDialog(null, "A 1º raiz é: " + r1);
             		r2 = (-b - Math.sqrt(delta)) / (2*a);
-           		 JOptionPane.showMessageDialog(null, "A 2º raiz é: " + r2);
+           		JOptionPane.showMessageDialog(null, "A 2º raiz é: " + r2);
 		}
 
 	}
