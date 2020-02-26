@@ -10,7 +10,7 @@ public class Main {
 		double a, b, c, delta, r1, r2;
 		String as, bs, cs;
 		
-		as = JOptionPane.showInputDialog("Informe o valor de A [CASO O X ELEVADO AO QUADRADO N√O POSSUA VALOR, INFORME A = 1]");
+		as = JOptionPane.showInputDialog("Informe o valor de A [CASO O X ELEVADO AO QUADRADO N√ÉO POSSUA VALOR, INFORME A = 1]");
 		bs = JOptionPane.showInputDialog("Informe o valor de B [INFORME CASO SEJA NEGATIVO]");
 		cs = JOptionPane.showInputDialog("Informe o valor de C [INFORME CASO SEJA NEGATIVO]");
 		
@@ -21,12 +21,12 @@ public class Main {
 		delta = Delta(a, b, c);
 		JOptionPane.showMessageDialog(null, "Delta = " + delta);
 		if (delta < 0) {
-			JOptionPane.showMessageDialog(null, "N„o existe raÌz real, DELTA = 0");
+			JOptionPane.showMessageDialog(null, "N√£o existe ra√≠z real, DELTA = 0");
 		} else {
 			r1 = (-b + Math.sqrt(delta)) / (2*a);
-            JOptionPane.showMessageDialog(null, "A 1∫ raiz È: " + r1);
-            r2 = (-b - Math.sqrt(delta)) / (2*a);
-            JOptionPane.showMessageDialog(null, "A 2∫ raiz È: " + r2);
+            		JOptionPane.showMessageDialog(null, "A 1¬∫ raiz √©: " + r1);
+            		r2 = (-b - Math.sqrt(delta)) / (2*a);
+           		 JOptionPane.showMessageDialog(null, "A 2¬∫ raiz √©: " + r2);
 		}
 
 	}
